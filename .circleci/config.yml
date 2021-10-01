@@ -10,7 +10,6 @@ working_dir: &working_dir ~/app
     - run: bundle install --jobs=4 --retry=4 --path vendor/bundle
     - run: bundle exec rake rubocop
     - run: chmod u+x coba.sh && ./coba.sh
-    - run: chmod u+x timeout.sh && ./timeout.sh
     
   working_directory: *working_dir
 
